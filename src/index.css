@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2em;
+  color: #333;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #d5e155;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #dcf453;
+}
+
+.hidden {
+  display: none;
+}
+
+.dark-mode {
+  background: #50aad3;
+  color: white;
+}
+
+.dark-mode .title {
+  color: #cbe857;
+}
+
+.dark-mode button {
+  background: #e4ea51;
+  color: white;
+}
